@@ -1,6 +1,7 @@
 #! /bin/csh -ef
 
 ## automatic push to github
+ssh -T git@github.com
 
 ## push imaging 
 cd ~/imaging
